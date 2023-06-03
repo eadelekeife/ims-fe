@@ -22,7 +22,8 @@ const Nav = () => {
         <div>
             <div className={`navigation ${fixedNav ? 'fix' : ''}`}>
                 <div>
-                    <Logo />
+                    {/* <Logo /> */}
+                    <h1>Isador <br /> Model Schools</h1>
                 </div>
                 <div>
                     <ul>
