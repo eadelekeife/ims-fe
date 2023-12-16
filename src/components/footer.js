@@ -6,9 +6,9 @@ import { ReactComponent as Twitter } from "../assets/images/twitter.svg";
 import { ReactComponent as LinkedIn } from "../assets/images/linkedin.svg";
 import { ReactComponent as Instagram } from "../assets/images/instagram.svg";
 
-const Footer = () => {
+const Footer = props => {
     return (
-        <div className="footer">
+        <div className={`footer ${props.margin ? 'margin' : ''}`}>
             <div className="contain">
                 <div className="footer-grid-2">
                     <div>
@@ -35,7 +35,7 @@ const Footer = () => {
                         </ul>
                     </div>
                 </div>
-                <div className="footer-grid-2">
+                <div className="footer-grid-2 sec-2">
                     <div>
                         <p className="ims-story">At IGS, we acknowledge the First Nations People of Australia as the strong, resilient and
                             resourceful custodians who have passed on their cultures, stories and songs for

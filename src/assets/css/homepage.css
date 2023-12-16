@@ -1,0 +1,881 @@
+.homepage-hero h1,
+.homepage-hero h2,
+.homepage-hero h3,
+.homepage-hero h4,
+.homepage-hero h5,
+.homepage-hero h6 {
+    font-family: 'Space Grotesk';
+}
+
+.school-props.school-hero {
+    padding-top: 5%;
+}
+
+.school-hero-main-content .school-props-inner-content {
+    text-align: center;
+}
+
+.school-hero-main-content .school-props-inner-content p {
+    font-size: 1.8rem;
+    line-height: 1.7;
+    width: 50%;
+    margin: 0px auto;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.school-hero-main-content .school-props-inner-content h2 {
+    font-size: 4rem;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.school-hero-main-content .school-props-inner-content .btn-flex {
+    display: flex;
+    grid-gap: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.school-hero-main-content .school-props-inner-content .btn-flex .btn-black {
+    background: #111;
+    padding: 13px 25px;
+    border-radius: 50px;
+    border: 1px solid #111;
+    font-size: 1.4rem;
+    color: #fff;
+}
+
+.school-hero-main-content .school-props-inner-content .btn-flex .btn-grey {
+    background: #E7E9ED;
+    padding: 13px 25px;
+    border-radius: 50px;
+    border: 1px solid #E7E9ED;
+    font-size: 1.4rem;
+    color: #111;
+}
+
+.centralize-div {
+    width: 40%;
+    margin: 0px auto;
+    display: block;
+    text-align: center;
+}
+
+.school-props-img-display {
+    margin-top: -60px;
+}
+
+.school-props-img-display .grid-5 {
+    align-items: flex-end;
+    grid-gap: 10px;
+}
+
+.school-props-img-display .long-img-cover {
+    height: 25rem;
+    border-radius: 12px;
+    width: 100%;
+    position: relative;
+}
+
+.school-props-img-display .short-img-cover {
+    height: 10rem;
+    border-radius: 12px;
+    width: 100%;
+    margin-top: 10px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 10px;
+    padding: 0px 15px;
+}
+
+.school-props-img-display .short-img-cover .short-cover {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    margin: 0px auto;
+    grid-gap: 10px;
+}
+
+.school-props-img-display .short-img-cover svg {
+    height: 4rem;
+    stroke: #C8F168;
+}
+
+.school-props-img-display .short-img-cover h4 {
+    margin-bottom: 0px;
+    font-size: 1.8rem;
+    color: #C8F168;
+}
+
+.school-props-img-display .short-img-cover._1 svg {
+    stroke: #fff;
+}
+
+.school-props-img-display .short-img-cover._1 h4 {
+    color: #fff;
+}
+
+
+.school-props-img-display .long-img-cover._1 {
+    background: #043F2E;
+}
+
+.school-props-img-display .short-img-cover._1 {
+    background: #111;
+}
+
+.school-props-img-display .short-img-cover._2 {
+    background: #243124;
+}
+
+.school-props-img-display .long-img-cover._4 {
+    background: #C8F168;
+}
+
+.school-props-img-display .long-img-cover._2 {
+    background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url('../images/home1.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.school-props-img-display .long-img-cover._3 {
+    background: linear-gradient(rgba(0, 0, 0, .6), rgba(0, 0, 0, .6)), url('../images/home2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.school-props-img-display .medium-img-cover {
+    background: #D1DCDA;
+    height: 18rem;
+    border-radius: 12px;
+    width: 100%;
+    position: relative;
+    display: block;
+}
+
+.school-props-img-display .absolute-div {
+    position: absolute;
+    bottom: 10px;
+    width: calc(100% - 10px);
+    left: 5px;
+    right: 5px;
+}
+
+.school-props-img-display .grid-5 button {
+    background: #B9C2C0;
+    display: flex;
+    align-items: center;
+    border-radius: 50px;
+    justify-content: space-between;
+    padding: 15px;
+    border: 1px solid #B9C2C0;
+    font-size: 1.4rem;
+    width: 100%;
+}
+
+.school-props-img-display .long-img-cover._1 button {
+    background: #1D5243;
+    border: 1px solid #1D5243;
+    color: #fff;
+}
+
+.school-props-img-display .long-img-cover._1 button svg {
+    fill: #C8F168;
+    stroke: #243124;
+}
+
+.school-props-img-display .long-img-cover._4 button {
+    background: #A7CA5A;
+    border: 1px solid #A7CA5A;
+    color: #243124;
+}
+
+.school-props-img-display .long-img-cover._4 button svg {
+    fill: #243124;
+    stroke: #C8F168;
+}
+
+.school-props-img-display .grid-5 button svg {
+    height: 3rem;
+    transform: rotate(-45deg);
+}
+
+.school-props-img-display .cover-content {
+    padding: 20px;
+    padding-bottom: 0px;
+    text-align: center;
+}
+
+
+/* user-faq */
+.user-faq .collapse-div .ant-collapse-header-text p,
+.user-faq .collapse-div .ant-collapse-content p {
+    margin-bottom: 0px;
+    line-height: 1.8;
+}
+
+.user-faq .collapse-div .ant-collapse-header-text p {
+    font-size: 1.8rem;
+    font-family: 'Space Grotesk';
+    font-weight: 600;
+}
+
+.user-faq .collapse-div .ant-collapse-content p {
+    margin-top: 20px;
+}
+
+.user-faq .collapse-div .ant-collapse-header-text p span {
+    margin-right: 30px;
+}
+
+.user-faq .ant-collapse-item {
+    border-bottom: 1px solid #DADCD3;
+    padding: 20px 0px;
+    border-radius: 0px !important;
+}
+
+.user-faq .ant-collapse.ant-collapse-icon-position-end {
+    border-top: 1px solid #DADCD3;
+    border-radius: 0px !important;
+}
+
+.user-faq .center-div {
+    width: 100%;
+}
+
+.user-faq h2 {
+    font-size: 2.6rem;
+    width: 100%;
+    margin-bottom: 10px;
+    color: #1A1A1A;
+    font-weight: bolder;
+}
+
+.user-faq .center-div p {
+    font-size: 1.6rem;
+    width: 100%;
+    line-height: 1.8;
+    margin-bottom: 60px;
+    color: #1A1A1A;
+    font-family: 'Space Grotesk';
+}
+
+.user-faq .user-faq-cover {
+    background: #EAECE2;
+    border-radius: 32px;
+    padding: 5% 0px;
+}
+
+
+
+.homepage-hero .school-feature {
+    /* background: #FEFAF2; */
+    /* background: #FFFBF3; */
+    height: 400px;
+    display: flex;
+    text-align: center;
+}
+
+.homepage-hero .school-feature h2 {
+    font-size: 4rem;
+    width: 45%;
+    margin: 0px auto;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.homepage-hero .school-feature h4 {
+    font-size: 1.4rem;
+    margin-bottom: 10px;
+}
+
+.homepage-hero .school-feature .button-flex {
+    width: 40%;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.homepage-hero .school-feature .contain {
+    position: relative;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.homepage-hero .school-feature p {
+    font-family: 'Space Grotesk';
+    font-size: 2.2rem;
+    line-height: 1.8;
+    width: 60%;
+    margin: 0px auto;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.homepage-hero .school-feature h2 {
+    font-size: 6rem;
+}
+
+.homepage-hero .school-feature button {
+    background: #111;
+    padding: 15px 35px;
+    border: 1px solid #111;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 1.4rem;
+}
+
+.homepage-hero .school-feature .img-disp {
+    position: absolute;
+}
+
+.homepage-hero .school-feature .img-disp.left._1 {
+    top: 0px;
+    left: calc(10rem + 10%);
+}
+
+.homepage-hero .school-feature .img-disp.left._2 {
+    top: calc(10rem + 40px);
+    left: 3%;
+}
+
+.homepage-hero .school-feature .img-disp.left._3 {
+    top: calc(20rem + 80px);
+    left: calc(10rem + 10%);
+}
+
+.homepage-hero .school-feature .img-disp.left._4 {
+    top: calc(20rem + 90px);
+    left: 3%;
+}
+
+.homepage-hero .school-feature .img-disp.left._5 {
+    top: calc(20rem + 170px);
+    left: calc(10rem + 5%);
+}
+
+.homepage-hero .school-feature .img-disp.right._1 {
+    top: 40px;
+    top: 0px;
+    right: calc(10rem + 10%);
+}
+
+.homepage-hero .school-feature .img-disp.right._2 {
+    top: calc(10rem + 40px);
+    right: 3%;
+}
+
+.homepage-hero .school-feature .img-disp.right._3 {
+    top: calc(20rem + 80px);
+    right: calc(10rem + 10%);
+}
+
+.homepage-hero .school-feature .img-disp.right._4 {
+    top: calc(20rem + 90px);
+    right: 3%;
+}
+
+.homepage-hero .school-feature .img-disp.right._5 {
+    top: calc(20rem + 170px);
+    right: calc(10rem + 5%);
+}
+
+.homepage-hero .school-feature .img-disp img {
+    width: 15rem;
+    height: 15rem;
+}
+
+
+.school-across-dark,
+.school-across-light {
+    background: #04392A;
+    width: 160%;
+    margin-left: -60px;
+    padding: 30px;
+    display: flex;
+    transform: rotate(-5deg);
+}
+
+.school-across-dark ul,
+.school-across-light ul {
+    margin: 0px;
+}
+
+.school-across-dark ul li,
+.school-across-light ul li {
+    display: inline-block;
+    margin-right: 20px;
+    color: #fff;
+    font-size: 1.5rem;
+    margin-bottom: 0px;
+}
+
+.school-across-light {
+    background: #B9E162;
+    transform: rotate(-10deg);
+    transform: rotate(5deg);
+    margin-top: -23px;
+}
+
+
+/* homepage-props */
+.homepage-props {
+    background: #05192D;
+    padding: 5% 0px;
+}
+
+.homepage-props .grid-2 {
+    margin-bottom: 2%;
+}
+
+.homepage-props .grid-2 h3 {
+    margin-bottom: 0px;
+    font-size: 3rem;
+    color: #fff;
+}
+
+.homepage-props .grid-2 p {
+    margin-bottom: 0px;
+    font-size: 1.4rem;
+    line-height: 1.8;
+    color: #fff;
+}
+
+.homepage-props .grid-4 {
+    grid-gap: 10px;
+}
+
+.homepage-props .school-extra-1 {
+    background: #D5CA9F;
+    background: #005640;
+    text-align: center;
+    width: 100%;
+    border-radius: 12px;
+    padding: 20px 10px;
+}
+
+.homepage-props .school-extra-1._2 {
+    background: #763A16;
+}
+
+.homepage-props .school-extra-1._3 {
+    background: #1496D4;
+    background: #5C1F8B;
+}
+
+.homepage-props .school-extra-1._4 {
+    background: #5C1F8B;
+    background: #004987;
+}
+
+.homepage-props .school-extra-img {
+    margin-bottom: 20px;
+    /* height: 30rem; */
+    border-radius: 150px 50px;
+}
+
+.homepage-props .school-extra-1 img {
+    object-fit: cover;
+    object-position: top;
+    border-radius: 12px;
+    height: 20rem;
+    border-radius: 150px 150px;
+}
+
+.homepage-props .school-extra-1._2 img {
+    border-radius: 120px 120px 16px 16px;
+}
+
+.homepage-props .school-extra-1._3 img {
+    border-radius: 12px 12px;
+}
+
+.homepage-props .school-extra-1 p {
+    font-size: 1.3rem;
+    line-height: 1.8;
+    color: rgba(253, 253, 253, .8);
+}
+
+.homepage-props .school-extra-1 h3 {
+    font-size: 1.6rem;
+    line-height: 1.6;
+    color: rgba(253, 253, 253, .9);
+}
+
+.teacher-list .grid-4 {
+    grid-gap: 15px;
+}
+
+.teacher-list .grid-4 .school-extra-1 .school-extra-img {
+    background: #BCBCBC;
+    height: 30rem;
+    width: 100%;
+    border-radius: 16px;
+    margin-bottom: 10px;
+}
+
+.teacher-list .grid-4 .school-extra-1 {
+    background: unset;
+    border-radius: unset;
+    padding: 0px;
+    text-align: unset;
+}
+
+.teacher-list .grid-4 h3 {
+    font-size: 1.6rem;
+    font-weight: bolder;
+    margin-bottom: 5px;
+    color: #fff;
+}
+
+.teacher-list .grid-4 p {
+    font-size: 1.4rem;
+    color: #fff;
+}
+
+.teacher-list .center-div {
+    margin-bottom: 40px;
+    width: 60%;
+}
+
+.teacher-list .center-div p {
+    font-size: 1.7rem;
+    line-height: 1.5;
+    color: #fff;
+}
+
+.teacher-list .center-div h2 {
+    font-size: 2.6rem;
+    line-height: 1.4;
+    font-weight: bolder;
+    color: #fff;
+}
+
+
+/* sec-faq */
+.sec-faq .collapse-div .ant-collapse-header-text p,
+.sec-faq .collapse-div .ant-collapse-content p {
+    margin-bottom: 0px;
+    line-height: 1.8;
+}
+
+.sec-faq .collapse-div .ant-collapse-header-text p {
+    font-size: 1.8rem;
+    font-family: 'Space Grotesk';
+    font-weight: 600;
+    margin-bottom: 0px;
+}
+
+.sec-faq .collapse-div .ant-collapse-content p {
+    margin-top: 20px;
+}
+
+.sec-faq .collapse-div .ant-collapse-header-text p span {
+    margin-right: 30px;
+}
+
+.sec-faq .ant-collapse-item {
+    border: 2px solid #000;
+    padding: 10px 35px;
+    border-radius: 50px !important;
+    margin-bottom: 30px;
+}
+
+.sec-faq .ant-collapse.ant-collapse-icon-position-end {
+    border-radius: 0px !important;
+}
+
+.sec-faq .grid-2 {
+    grid-template-columns: 1fr 1.5fr;
+}
+
+.sec-faq .content-sect h2 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+.sec-faq .content-sect p {
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+    width: 60%;
+}
+
+.sec-faq .content-sect button {
+    font-size: 1.4rem;
+    background: #000;
+    border: 1px solid #000;
+    color: #fff;
+    border-radius: 50px;
+    padding: 15px 35px;
+}
+
+
+/* school-why */
+.school-why p,
+.school-why ul li {
+    font-size: 1.5rem;
+    line-height: 1.8;
+}
+
+.school-why ul li {
+    line-height: 4.8;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.school-why ul li ion-icon {
+    font-size: 2rem;
+    margin-right: 20px;
+    color: #005640;
+}
+
+.school-why ul li p {
+    margin-bottom: 0px;
+}
+
+.school-why h3 {
+    font-size: 2.8rem;
+    /* width: 60%; */
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+
+.school-why h5 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.school-why .grid-2 {
+    grid-gap: 30px;
+}
+
+/* testimonial-disp */
+.testimonial-disp .grid-3 {
+    grid-gap: 10px;
+}
+
+.testimonial-disp.homepage-props .school-extra-1 {
+    background: #fff;
+    position: relative;
+    padding: 0px;
+}
+
+.testimonial-disp.homepage-props .school-extra-1 h3 {
+    text-align: left;
+    color: #111;
+    margin-bottom: 15%;
+    font-size: 1.8rem;
+    line-height: 1.3;
+    font-weight: bolder;
+}
+
+.testimonial-disp .school-extra-1 .testimonial-author-img {
+    position: absolute;
+    top: -30px;
+}
+
+.testimonial-disp .school-extra-1 .testimonial-author-img img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.testimonial-disp .school-extra-1 .testimonial-author h5 {
+    color: #65707c;
+    text-align: left;
+    font-size: 1.6rem;
+    margin-bottom: 0px;
+}
+
+.testimonial-disp .school-extra-1 .testimonial-author p {
+    font-size: 1.3rem;
+    color: #65707c;
+    text-align: left;
+    margin-bottom: 0px;
+}
+
+.testimonial-disp .testimonial-bottom-div {
+    width: 100%;
+    height: 10px;
+    background: #5EB1FF;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    border-radius: 0px 0px 40px 40px;
+}
+
+.testimonial-disp .school-extra-content {
+    position: relative;
+    padding: 20px;
+    padding-top: 60px;
+}
+
+.testimonial-disp .testimonial-bottom-div._2 {
+    background: #5646A5;
+}
+
+.testimonial-disp .testimonial-bottom-div._3 {
+    background: #7933FF;
+}
+
+.swiper-horizontal {
+    overflow: visible !important;
+}
+
+@media screen and (max-width: 720px) {
+    .homepage-props .grid-2 {
+        display: block;
+    }
+
+    .homepage-props .grid-2 h3 {
+        font-size: 2.5rem;
+        line-height: 1.5;
+        margin-bottom: 10px;
+    }
+
+    .school-why h3,
+    .teacher-list .center-div h2 {
+        font-size: 2.2rem;
+        line-height: 1.4;
+        margin-bottom: 10px;
+    }
+
+    .school-why p {
+        /* font-size: 1.6rem; */
+    }
+
+    .homepage-props {
+        padding: 15% 0px;
+    }
+
+    .homepage-props .grid-2 p,
+    .teacher-list .center-div p,
+    .testimonial-disp.homepage-props .school-extra-1 h3 {
+        font-size: 1.5rem;
+        margin-bottom: 20px;
+    }
+
+    .homepage-props .school-extra-1 p {
+        font-size: 1.4rem;
+    }
+
+    .homepage-props .school-extra-1 img {
+        width: 100%;
+    }
+
+    .school-why .grid-2 {
+        display: block;
+    }
+
+    .teacher-list .center-div {
+        width: 100%;
+        text-align: left;
+    }
+
+    .teacher-list .grid-4 {
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 5px;
+    }
+
+    .teacher-list .grid-4 .school-extra-1 .school-extra-img {
+        height: 20rem;
+    }
+
+    .teacher-list .grid-4 h3 {
+        font-size: 1.4rem;
+        margin-bottom: 0px;
+    }
+
+    .teacher-list .grid-4 p {
+        font-size: 1.2rem;
+        margin-bottom: 0px;
+        line-height: 1.5;
+    }
+
+    .sec-faq .grid-2 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .sec-faq .content-sect p {
+        width: 100%;
+    }
+
+    .sec-faq .content-sect button {
+        margin-bottom: 20px;
+    }
+
+    .sec-faq .ant-collapse-item {
+        padding: 5px;
+    }
+
+    .sec-faq .collapse-div .ant-collapse-header-text p span {
+        margin-right: 10px;
+    }
+
+    .sec-faq .collapse-div .ant-collapse-header-text p {
+        font-size: 1.6rem;
+    }
+
+
+
+    .homepage-hero .school-feature .img-disp.left,
+    .homepage-hero .school-feature .img-disp.right {
+        display: none;
+    }
+
+    .homepage-hero .school-feature p {
+        width: 100%;
+        font-size: 2rem;
+        line-height: 1.8;
+    }
+
+    .homepage-hero .school-feature h2 {
+        width: 100%;
+        font-size: 5rem;
+    }
+
+    .homepage-hero .school-feature .contain {
+        display: block;
+    }
+
+    .homepage-hero .school-feature {
+        height: unset;
+    }
+
+    .school-hero-main-content .school-props-inner-content h2 {
+        font-size: 3rem;
+        margin-bottom: 20px;
+    }
+    .school-props.school-hero {
+        padding-top: 15%;
+    }
+
+    .school-hero-main-content .school-props-inner-content p {
+        font-size: 1.8rem;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .school-props-img-display .grid-5 {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .school-props-img-display {
+        margin-top: 10%;
+    }
+}

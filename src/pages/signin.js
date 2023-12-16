@@ -17,8 +17,6 @@ const SignInPage = () => {
     const signupValidator = yup.object().shape({
         emailAddress: yup.string().email('Please enter a valid email address').required('Please enter your email address'),
         password: yup.string().required('Please enter your password'),
-        firstName: yup.string().required('Please enter your first name'),
-        lastName: yup.string().required('Please enter your last name')
     })
 
     const { handleSubmit, control, formState: { errors } } = useForm({
@@ -39,7 +37,6 @@ const SignInPage = () => {
             <div>
                 <div>
                     <div>
-
                         <div className="width-60 center">
                             {
                                 errorMessage ?

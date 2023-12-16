@@ -1,0 +1,233 @@
+.homepage-hero {
+    background: #FBF9EE;
+}
+
+.school-hero {
+    background: #35092C;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 5% 0px;
+    /* position: relative; */
+}
+
+.school-hero .school-hero-content {
+    padding-top: 5%;
+    position: relative;
+}
+
+.school-hero h2 {
+    color: #fff;
+    font-size: 8rem;
+}
+
+.school-hero h2:nth-child(3) {
+    padding-bottom: 30px;
+}
+
+.school-hero p.page-tag {
+    color: #e46043;
+    text-transform: uppercase;
+    /* font-family: 'Circular Black'; */
+}
+
+.school-hero p {
+    color: #fff;
+    font-size: 1.6rem;
+    line-height: 1.8;
+    width: 60%;
+    margin: 0px auto;
+    display: block;
+    margin-bottom: 30px;
+}
+
+.school-hero a {
+    color: #fff;
+    font-size: 1.5rem;
+    line-height: 1.8;
+}
+
+.school-hero .student-img {
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    top: 20px;
+    background: #F2C944;
+    border-radius: 50%;
+}
+
+.school-hero .student-img._2 {
+    top: 20px;
+    right: 0px;
+    background: #FBFBFB;
+}
+
+.school-hero .student-img._3 {
+    bottom: 0px;
+    left: 0px;
+    top: unset;
+    background: #FBF9EE;
+}
+
+.school-hero .student-img._4 {
+    bottom: 0px;
+    right: 0px;
+    top: unset;
+    background: #E46043;
+}
+
+.school-props {
+    background: #F6F4EF;
+    padding: 5% 0px;
+}
+
+.school-props .school-props-inner-content {
+    width: 50%;
+    margin: 0px auto;
+    display: block;
+    text-align: center;
+}
+
+.school-props .school-props-inner-images .grid-4 {
+    grid-gap: 60px;
+    margin-top: 10%;
+}
+
+.school-props .school-props-inner-content h2 {
+    font-size: 3.5rem;
+    line-height: 1.2;
+}
+
+.school-props .school-props-inner-content p {
+    font-size: 1.5rem;
+    line-height: 1.8;
+    width: 80%;
+    margin: 0px auto;
+    display: block;
+}
+
+.school-props .school-props-inner-images .grid-4 .props-img._1,
+.school-props .school-props-inner-images .grid-4 .props-img._4 {
+    margin-top: -30%;
+}
+
+.school-props .school-props-inner-images .grid-4 .props-img img {
+    height: 35rem;
+    object-fit: cover;
+    object-position: center top;
+    border-radius: 4px;
+}
+
+
+.school-sec-props p {
+    font-size: 1.8rem;
+    line-height: 1.8;
+    margin-bottom: 30px;
+}
+
+.school-sec-props p.section-tag {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+}
+
+.school-sec-props .grid-2 {
+    align-items: center;
+}
+
+.school-sec-props .grid-2 h2 {
+    font-size: 5rem;
+    width: 80%;
+    margin-bottom: 10px;
+}
+
+.school-sec-props .grid-2 button {
+    font-size: 1.4rem;
+    padding: 15px 25px;
+    background: #1865F2;
+    border: 1px solid #1865F2;
+    border-radius: 3px;
+    color: #fff;
+}
+
+
+/* .school-extra-props */
+
+
+/* school-testimonial */
+.school-testimonial {
+    background: #F6F4EF;
+    padding: 5% 0px;
+}
+
+.school-testimonial .testimonial-content {
+    width: 60%;
+    margin: 0px auto;
+    display: block;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+.school-testimonial .testimonial-content h4 {
+    font-size: 3.5rem;
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+.school-testimonial .principal-avatar {
+    border: 3px solid #900000;
+    padding: 5px;
+    margin: 0px auto;
+    display: block;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.school-testimonial .principal-avatar .avatar {
+    background: #C6C8D4;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+
+.school-testimonial .testimonial-content h5 {
+    font-size: 1.6rem;
+    margin-bottom: 2px;
+}
+
+.school-testimonial .testimonial-content p {
+    font-size: 1.4rem;
+}
+
+/* school-extra-props */
+.school-extra-props {
+    /* background: #FFF5F1; */
+    /* height: 60rem; */
+    width: 100%;
+}
+
+.school-extra-props .school-extra-props-content {
+    background: #FFF5F1;
+    height: 20rem;
+    margin-top: -1%;
+}
+
+.school-extra-props svg {
+    margin-bottom: 0px;
+    overflow: hidden;
+    width: 100%;
+    display: block;
+}
+
+.school-extra-props svg {
+    margin-bottom: 0px;
+    overflow: hidden;
+    width: 100%;
+}
+
+.school-extra-props svg.bottom-wave {
+    margin-top: -1%;
+}

@@ -11,17 +11,16 @@ import Footer from "../components/footer";
 const BlogPage = () => {
     return (
         <div>
-            <div className="lane-blue">
+            {/* <div className="lane-blue">
                 <p>Abihome is now Gradoo: Learn all about our name change and our new app in the blog post</p>
-            </div>
-            <Nav />
+            </div> */}
+            <Nav relativeNav={true} />
             <div className="first-content-display">
                 <div className="first-content-text">
-                    <h1>With Gradoo you plan, design and order your final projects</h1>
+                    <h1>Our Stories</h1>
                     <p>
                         With Gradoo we are not only rethinking our brand, but also our platform. You benefit
-                        from numerous new features, a better overview and even more time savings
-                        in your final projects.
+                        from numerous new features, a better overview.
                     </p>
                     <button className="btn-yellow">Read latest blog story</button>
                 </div>
@@ -98,7 +97,7 @@ const BlogPage = () => {
                     </div>
                 </div>
             </div>
-            <Footer />
+            <Footer margin={true} />
         </div>
     )
 }
